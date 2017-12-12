@@ -1,2 +1,2 @@
 def calculate(value):
-    return ''
+    return 'Fizz'
