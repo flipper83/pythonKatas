@@ -1,2 +1,5 @@
 def calculate(value):
-    return 'Fizz'
+    if (value == 3):
+        return 'Fizz'
+    else:
+        return 'Buzz'
