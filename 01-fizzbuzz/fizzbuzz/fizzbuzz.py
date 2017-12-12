@@ -1,13 +1,13 @@
 def calculate(value):
-    if is_disivible(value, 3) and is_disivible(value, 5):
+    if is_divisible(value, 3) and is_divisible(value, 5):
         return 'FizzBuzz'
-    elif is_disivible(value, 3):
+    elif is_divisible(value, 3):
         return 'Fizz'
-    elif is_disivible(value, 5):
+    elif is_divisible(value, 5):
         return 'Buzz'
 
     return str(value)
 
 
-def is_disivible(value, divisor):
+def is_divisible(value, divisor):
     return value % divisor == 0
