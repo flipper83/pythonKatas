@@ -3,5 +3,5 @@ def calculate(value):
         return 'Fizz'
     elif value == 5:
         return 'Buzz'
-    else:
-        return str(value)
+
+    return str(value)
