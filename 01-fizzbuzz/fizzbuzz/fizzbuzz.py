@@ -1,9 +1,13 @@
 def calculate(value):
-    if value % 3 == 0 and value % 5 == 0:
+    if is_disivible(value, 3) and is_disivible(value, 5):
         return 'FizzBuzz'
-    elif value % 3 == 0:
+    elif is_disivible(value, 3):
         return 'Fizz'
-    elif value % 5 == 0:
+    elif is_disivible(value, 5):
         return 'Buzz'
 
     return str(value)
+
+
+def is_disivible(value, divisor):
+    return value % divisor == 0
