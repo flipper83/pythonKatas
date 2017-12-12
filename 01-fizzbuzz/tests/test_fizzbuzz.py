@@ -12,3 +12,6 @@ class FizzBuzzTest(unittest.TestCase):
     def test_should_return_the_value_when_value_is_not_3_or_5_or_divisors(self):
         self.assertEqual(fizzbuzz.calculate(1), "1")
 
+    def test_should_return_fiz_when_the_value_is_divisible_by_3(self):
+        self.assertEqual(fizzbuzz.calculate(9), "Fizz")
+
