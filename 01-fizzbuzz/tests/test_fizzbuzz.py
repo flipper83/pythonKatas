@@ -28,4 +28,4 @@ class FizzBuzzTest(unittest.TestCase):
         self.assertEqual(fizzbuzz.calculate(52), 'Buzz')
 
     def test_should_return_fizzbuzz_when_the_value_contains_3_and_5(self):
-        self.assertEqual(fizzbuzz.calculate(53), 'Buzz')
+        self.assertEqual(fizzbuzz.calculate(53), 'FizzBuzz')
