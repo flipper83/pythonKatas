@@ -4,7 +4,7 @@ def calculate(value):
         return 'FizzBuzz'
     elif is_divisible(value, 3) or contains(value, '3'):
         return 'Fizz'
-    elif is_divisible(value, 5):
+    elif is_divisible(value, 5) or contains(value, '5'):
         return 'Buzz'
 
     return str(value)
