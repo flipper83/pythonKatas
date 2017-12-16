@@ -100,3 +100,4 @@ ENV/
 # mypy
 .mypy_cache/
 kata-env
+.idea
